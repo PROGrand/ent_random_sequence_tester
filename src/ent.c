@@ -46,6 +46,10 @@
 #define PI       3.14159265358979323846
 #endif
 
+#ifndef VERSION
+#define VERSION "1.4"
+#endif
+
 extern double pochisq(const double ax, const int df);
 
 /*  HELP  --  Print information on how to call  */
